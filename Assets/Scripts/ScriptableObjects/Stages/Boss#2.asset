@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4e7ee6ed25ad4418b1520630537040, type: 3}
+  m_Name: Boss#2
+  m_EditorClassIdentifier: 
+  Background: {fileID: 21300000, guid: 5b01654dd51d4a8459b77338245b0682, type: 3}
+  route: {fileID: 11400000, guid: 190915b90ece70048919cc3f81bcc68b, type: 2}
+  AppleChance: 70
+  LogHealth: 7
+  KnifeSpawnMin: 2
+  KnifeSpawnMax: 3
+  StageMusic: {fileID: 8300000, guid: 47f45ef7b5767674393cc401fc325705, type: 3}
+  LogHittedSound: {fileID: 8300000, guid: 0994c12e202f342459a4212e7287f7e8, type: 3}
+  LogBreakingSound: {fileID: 8300000, guid: 5bbc1948029458c4a912855fb8d4820a, type: 3}
+  LogSprite: {fileID: 21300000, guid: 3c12d3184f4a7fe4784041388fb1c313, type: 3}
+  LogPartSprite: {fileID: 21300000, guid: 3c12d3184f4a7fe4784041388fb1c313, type: 3}
+  IsBoss: 1
+  BossName: Cheese
